@@ -1,0 +1,23 @@
+{
+    "version": "0.3.0",
+    "description": "A terminal-based SSH manager inspired by lazydocker and k9s - Written in go",
+    "homepage": "https://github.com/Adembc/lazyssh",
+    "bin": "lazyssh.exe",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Adembc/lazyssh/releases/download/v0.3.0/lazyssh_Windows_x86_64.zip",
+            "hash": "sha256:ca4353a910e453deb5de68c95d83aa8738ff0e52c4bff919f6d74dc27560a1df"
+        }
+    },
+    "checkver": {
+        "github": "https://github.com/Adembc/lazyssh"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Adembc/lazyssh/releases/download/v$version/lazyssh_Windows_x86_64.zip"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "version": "5.10.0",
+    "description": "A simple and standalone WebDAV server.",
+    "homepage": "https://github.com/hacdias/webdav",
+    "bin": "webdav.exe",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/hacdias/webdav/releases/download/v5.10.0/windows-amd64-webdav.zip",
+            "hash": "4ff0115de31b42f6e78c81ec02195584d794c48e74be08ae649c713c0c98978d"
+        }
+    },
+    "checkver": {
+        "github": "https://github.com/hacdias/webdav"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/hacdias/webdav/releases/download/v$version/windows-amd64-webdav.zip"
+            }
+        }
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "version": "1.2.5",
+    "description": "一个现代化轻量级的跨平台Redis桌面客户端",
+    "license": "GPL-3.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/tiny-craft/tiny-rdm/releases/download/v1.2.5/TinyRDM_Portable_1.2.5_windows_x64.zip",
+            "hash": "sha256:e2cc052ae57d83e34cc99268a5c78458d90c845b16326482f700c28604badea2"
+        },
+        "arm64": {
+            "url": "https://github.com/tiny-craft/tiny-rdm/releases/download/v1.2.5/TinyRDM_Portable_1.2.5_windows_arm64.zip",
+            "hash": "sha256:cb65ba111c359ac7296a5ed5a3dea5da9e95c8a759d720f8a77ef385e1a7a3a2"
+        }
+    },
+    "homepage": "https://github.com/tiny-craft/tiny-rdm",
+    "shortcuts": [
+        [
+            "Tiny RDM.exe",
+            "Tiny RDM"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/tiny-craft/tiny-rdm"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/tiny-craft/tiny-rdm/releases/download/v$version/TinyRDM_Portable_$version_windows_x64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/tiny-craft/tiny-rdm/releases/download/v$version/TinyRDM_Portable_$version_windows_arm64.zip"
+            }
+        }
+    }
+}

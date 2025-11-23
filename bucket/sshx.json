@@ -1,0 +1,18 @@
+{
+    "version": "0.4.1",
+    "description": "Fast, collaborative live terminal sharing over the web",
+    "homepage": "https://sshx.io",
+    "bin": "sshx.exe",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://sshx.s3.amazonaws.com/sshx-x86_64-pc-windows-msvc.zip"
+        }
+    },
+    "checkver": {
+        "github": "https://github.com/ekzhang/sshx"
+    },
+    "hash": {
+        "url": "$url.sha256"
+    }
+}

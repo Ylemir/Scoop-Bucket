@@ -1,0 +1,23 @@
+{
+    "version": "0.2.1",
+    "description": "Gonzo! The Go based TUI log analysis tool",
+    "homepage": "https://www.controltheory.com/gonzo/",
+    "bin": "gonzo.exe",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/control-theory/gonzo/releases/download/v0.2.1/gonzo-0.2.1-windows-amd64.zip",
+            "hash": "sha256:8db1d4ca7859de0190e02d89884aa8c471bdbebd17d1087f1fc0bfa12868230f"
+        }
+    },
+    "checkver": {
+        "github": "https://github.com/control-theory/gonzo"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/control-theory/gonzo/releases/download/v$version/gonzo-$version-windows-amd64.zip"
+            }
+        }
+    }
+}

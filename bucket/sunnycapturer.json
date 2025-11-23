@@ -1,0 +1,28 @@
+{
+    "version": "5.0.1",
+    "description": "简单且漂亮的跨平台截图软件，支持离线 OCR、图片翻译、贴图和钉图等功能",
+    "homepage": "http://sunnycapturer.xmuli.tech/",
+    "shorcuts": [
+        [
+            "SunnyCapturer.exe",
+            "SunnyCapturer"
+        ]
+    ],
+    "license": "unknown",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/XMuli/SunnyCapturer/releases/download/v5.0.1/SunnyCapturer_portable_5.0.1.7z",
+            "hash": "sha256:e9cd556081a963422bfd36765351cf28b0018342769aa3cffb9f3ad74c62a9e0"
+        }
+    },
+    "checkver": {
+        "github": "https://github.com/XMuli/SunnyCapturer"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/XMuli/SunnyCapturer/releases/download/v$version/SunnyCapturer_portable_$version.7z"
+            }
+        }
+    }
+}

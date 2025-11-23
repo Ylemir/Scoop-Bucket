@@ -1,0 +1,28 @@
+{
+    "version": "1.4.3",
+    "description": "护眼 - 定时提醒",
+    "homepage": "https://github.com/Planshit/ProjectEye",
+    "shortcuts": [
+        [
+            "ProjectEye.exe",
+            "ProjectEye"
+        ]
+    ],
+    "persist": "Data",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Planshit/ProjectEye/releases/download/1.4.3/ProjectEye.zip"
+        }
+    },
+    "checkver": {
+        "github": "https://github.com/Planshit/ProjectEye"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Planshit/ProjectEye/releases/download/$version/ProjectEye.zip"
+            }
+        }
+    }
+}
