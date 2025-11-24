@@ -10,7 +10,6 @@ This bucket currently contains the following applications:
 | ----------- | ----------- |
 | [dblab](https://github.com/danvergara/dblab) | The database client every command line junkie deserves. |
 | [envx](https://github.com/mikeleppane/envx) | A powerful and secure environment variable manager for developers, featuring an intuitive Terminal User Interface (TUI) and comprehensive command-line interface. |
-| [everywhere](https://everywhere.sylinko.com) | A context-aware AI assistant for your desktop. Ready to respond intelligently, seamlessly integrating multiple LLMs and MCP tools. |
 | [filebrowser](https://filebrowser.org) | 📂 Web File Browser |
 | [flow](https://flow-control.dev) | Flow Control: a programmer's text editor |
 | [gonzo](https://www.controltheory.com/gonzo/) | Gonzo! The Go based TUI log analysis tool |

@@ -157,6 +157,7 @@ def generate_manifest(owner_repo, version=None, github_token=None):
         verify=False,
     ) as client:
         repo = get_repo(client, owner_repo)
+        app_name = repo.get("name")
         logger.debug(f"repo: {json.dumps(repo, ensure_ascii=False, indent=2)}")
         # 获取 release
         release = get_release(client, owner_repo, version)
@@ -182,12 +183,13 @@ def generate_manifest(owner_repo, version=None, github_token=None):
         sha = asset.get("digest")
         logger.info(f"🔒 {sha}")
 
-        bin_name = f"{repo.get('name')}.exe"
+        bin_name = f"{app_name}.exe"
         if asset_name.endswith(".zip"):
             # bin_name = extract_bin_from_zip(file_path)
             pass
         elif asset_name.endswith(".exe"):
-            bin_name = asset_name
+            pass
+        bin = bin_name if bin_name == asset_name else [[asset_name, app_name]]
 
         # license_type = get_license(client, owner_repo)
         license = repo.get("license") or {}
@@ -198,7 +200,8 @@ def generate_manifest(owner_repo, version=None, github_token=None):
             "version": version,
             "description": repo.get("description") or release.get("name"),
             "homepage": repo.get("homepage") or f"https://github.com/{owner_repo}",
-            "bin": bin_name,
+            "bin": bin,
+            "shortcuts": [[bin_name, app_name]],
             "license": license_type,
             "architecture": {"64bit": {"url": asset_url, "hash": sha}},
             "checkver": {"github": f"https://github.com/{owner_repo}"},
@@ -210,7 +213,7 @@ def generate_manifest(owner_repo, version=None, github_token=None):
                 }
             },
         }
-        output_file = f"bucket/{repo.get('name').lower()}.json"
+        output_file = f"bucket/{app_name.lower()}.json"
         with open(output_file, "w", encoding="utf-8") as f:
             json.dump(manifest, f, indent=2, ensure_ascii=False)
 
