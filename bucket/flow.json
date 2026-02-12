@@ -1,13 +1,13 @@
 {
-    "version": "0.6.0",
+    "version": "0.7.0",
     "description": "Flow Control: a programmer's text editor",
     "homepage": "https://flow-control.dev",
     "bin": "flow.exe",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/neurocyte/flow/releases/download/v0.6.0/flow-v0.6.0-windows-x86_64-debug.zip",
-            "hash": "5154af4c1f3163922ef99bc486cf7433ca3b11064bd447d7712061d7d221138f"
+            "url": "https://github.com/neurocyte/flow/releases/download/v0.7.0/flow-v0.7.0-windows-x86_64-debug.zip",
+            "hash": "abe41723bee1584441b4a616f63af2b6f6faeced6aaefefe6543af86b6a47826"
         }
     },
     "checkver": {
