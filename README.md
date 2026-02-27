@@ -12,8 +12,10 @@ This bucket currently contains the following applications:
 | [envx](https://github.com/mikeleppane/envx) | A powerful and secure environment variable manager for developers, featuring an intuitive Terminal User Interface (TUI) and comprehensive command-line interface. |
 | [filebrowser](https://filebrowser.org) | 📂 Web File Browser |
 | [flow](https://flow-control.dev) | Flow Control: a programmer's text editor |
+| [gitlogue](https://github.com/unhappychoice/gitlogue) | A cinematic Git commit replay tool for the terminal, turning your Git history into a living, animated story. |
 | [gonzo](https://www.controltheory.com/gonzo/) | Gonzo! The Go based TUI log analysis tool |
 | [halp](https://halp.cli.rs/) | A CLI tool to get help with CLI tools 🐙 |
+| [hapi](https://hapi.run) | App for Claude Code / Codex / Gemini / OpenCode, vibe coding anytime, anywhere |
 | [hl](https://github.com/pamburus/hl) | A fast and powerful log viewer and processor that converts JSON logs or logfmt logs into a clear human-readable format. |
 | [lazyssh](https://github.com/Adembc/lazyssh) | A terminal-based SSH manager inspired by lazydocker and k9s - Written in go |
 | [projecteye](https://github.com/Planshit/ProjectEye) | 护眼 - 定时提醒 |

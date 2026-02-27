@@ -1,13 +1,13 @@
 {
-    "version": "0.35.3",
+    "version": "0.35.4",
     "description": "A fast and powerful log viewer and processor that converts JSON logs or logfmt logs into a clear human-readable format.",
     "homepage": "https://github.com/pamburus/hl",
     "bin": "hl.exe",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/pamburus/hl/releases/download/v0.35.3/hl-windows.zip",
-            "hash": "5fc27552b345e81f5cb6ace803e618490f2fb0c5ca0fb09ac049e35b5bfaed51"
+            "url": "https://github.com/pamburus/hl/releases/download/v0.35.4/hl-windows.zip",
+            "hash": "87375fde5539481609476695565b74c891a99eeab3340a6c333a91e2da84beef"
         }
     },
     "checkver": {
