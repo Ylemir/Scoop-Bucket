@@ -1,0 +1,33 @@
+{
+    "version": "1.39",
+    "description": "Keyboard & Mouse Stats for macOS/Windows",
+    "homepage": "https://keystats.vercel.app",
+    "shortcuts": [
+        [
+            "keyStats.exe",
+            "keyStats"
+        ]
+    ],
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/debugtheworldbot/keyStats/releases/download/v1.39/KeyStats-Windows-1.40.zip",
+            "hash": "sha256:2189b315aaa850078e8d4b748cb02b4662570c9e78e5d4feca159a419a3ace76"
+        }
+    },
+    "post_uninstall": [
+        "if ($purge) {",
+        "    Join-Path -Path $env:LOCALAPPDATA -ChildPath 'KeyStats' | Remove-Item -Force -Recurse -ErrorAction Ignore",
+        "}"
+    ],
+    "checkver": {
+        "github": "https://github.com/debugtheworldbot/keyStats"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/debugtheworldbot/keyStats/releases/download/v$version/KeyStats-Windows-1.40.zip"
+            }
+        }
+    }
+}

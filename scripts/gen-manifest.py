@@ -184,12 +184,12 @@ def generate_manifest(owner_repo, version=None, github_token=None):
         logger.info(f"🔒 {sha}")
 
         bin_name = f"{app_name}.exe"
-        if asset_name.endswith(".zip"):
+        bin = [[bin_name, app_name]]
+        if asset_name.endswith(".exe"):
+            bin = bin_name if bin_name == asset_name else [[asset_name, app_name]]
+        elif asset_name.endswith(".zip"):
             # bin_name = extract_bin_from_zip(file_path)
             pass
-        elif asset_name.endswith(".exe"):
-            pass
-        bin = bin_name if bin_name == asset_name else [[asset_name, app_name]]
 
         # license_type = get_license(client, owner_repo)
         license = repo.get("license") or {}

@@ -17,8 +17,13 @@ This bucket currently contains the following applications:
 | [halp](https://halp.cli.rs/) | A CLI tool to get help with CLI tools 🐙 |
 | [hapi](https://hapi.run) | App for Claude Code / Codex / Gemini / OpenCode, vibe coding anytime, anywhere |
 | [hl](https://github.com/pamburus/hl) | A fast and powerful log viewer and processor that converts JSON logs or logfmt logs into a clear human-readable format. |
+| [intelli-shell](https://lasantosr.github.io/intelli-shell/) | Like IntelliSense, but for shells |
+| [keystats](https://keystats.vercel.app) | Keyboard & Mouse Stats for macOS/Windows |
 | [lazyssh](https://github.com/Adembc/lazyssh) | A terminal-based SSH manager inspired by lazydocker and k9s - Written in go |
+| [mousemaster](https://github.com/petoncle/mousemaster) | Efficiently control your mouse with keyboard inputs for a completely mouseless experience. |
+| [octopus](https://github.com/bestruirui/octopus) | One Hub All LLMs For You \| 为个人打造的 LLM API 聚合服务 |
 | [projecteye](https://github.com/Planshit/ProjectEye) | 护眼 - 定时提醒 |
+| [renai](https://github.com/ylemir/renai) | AI based image renaming CLI |
 | [snibypassgui](https://github.com/racpast/SNIBypassGUI) | 直连 GitHub、Discord、GreasyFork等 \| 一个通过 Nginx 反向代理实现绕过 SNI 阻断的工具 |
 | [sshx](https://sshx.io) | Fast, collaborative live terminal sharing over the web |
 | [sunnycapturer](http://sunnycapturer.xmuli.tech/) | 简单且漂亮的跨平台截图软件，支持离线 OCR、图片翻译、贴图和钉图等功能 |
