@@ -1,5 +1,5 @@
 {
-    "version": "0.16.3",
+    "version": "0.16.4",
     "description": "App for Claude Code / Codex / Gemini / OpenCode, vibe coding anytime, anywhere",
     "homepage": "https://hapi.run",
     "bin": [
@@ -11,8 +11,8 @@
     "license": "AGPL-3.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/tiann/hapi/releases/download/v0.16.3/hapi-win32-x64.zip",
-            "hash": "a24bbd406f4f9d64efceca19bbb63cccb18364ef6a072eef271d271d6c6e0777"
+            "url": "https://github.com/tiann/hapi/releases/download/v0.16.4/hapi-win32-x64.zip",
+            "hash": "402544985713e2b51040caf46cde527a8f1af6399993a9c11b335fa0badbe92a"
         }
     },
     "checkver": {
