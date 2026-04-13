@@ -8,6 +8,7 @@ This bucket currently contains the following applications:
 
 | Application | Description |
 | ----------- | ----------- |
+| [cli-proxy-api](https://github.com/router-for-me/CLIProxyAPI) | Wrap Gemini CLI, Antigravity, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API |
 | [dblab](https://github.com/danvergara/dblab) | The database client every command line junkie deserves. |
 | [envx](https://github.com/mikeleppane/envx) | A powerful and secure environment variable manager for developers, featuring an intuitive Terminal User Interface (TUI) and comprehensive command-line interface. |
 | [filebrowser](https://filebrowser.org) | 📂 Web File Browser |
@@ -15,18 +16,18 @@ This bucket currently contains the following applications:
 | [gitlogue](https://github.com/unhappychoice/gitlogue) | A cinematic Git commit replay tool for the terminal, turning your Git history into a living, animated story. |
 | [gonzo](https://www.controltheory.com/gonzo/) | Gonzo! The Go based TUI log analysis tool |
 | [halp](https://halp.cli.rs/) | A CLI tool to get help with CLI tools 🐙 |
-| [hapi](https://hapi.run) | App for Claude Code / Codex / Gemini / OpenCode, vibe coding anytime, anywhere |
 | [hl](https://github.com/pamburus/hl) | A fast and powerful log viewer and processor that converts JSON logs or logfmt logs into a clear human-readable format. |
 | [intelli-shell](https://lasantosr.github.io/intelli-shell/) | Like IntelliSense, but for shells |
 | [keystats](https://keystats.vercel.app) | Keyboard & Mouse Stats for macOS/Windows |
-| [lazyssh](https://github.com/Adembc/lazyssh) | A terminal-based SSH manager inspired by lazydocker and k9s - Written in go |
 | [mousemaster](https://github.com/petoncle/mousemaster) | Efficiently control your mouse with keyboard inputs for a completely mouseless experience. |
+| [mouser](https://github.com/TomBadash/Mouser) | A lightweight, open-source, fully local alternative to Logitech Options+ for remapping Logitech HID++ mice. |
 | [octopus](https://github.com/bestruirui/octopus) | One Hub All LLMs For You \| 为个人打造的 LLM API 聚合服务 |
 | [projecteye](https://github.com/Planshit/ProjectEye) | 护眼 - 定时提醒 |
 | [renai](https://github.com/ylemir/renai) | AI based image renaming CLI |
 | [snibypassgui](https://github.com/racpast/SNIBypassGUI) | 直连 GitHub、Discord、GreasyFork等 \| 一个通过 Nginx 反向代理实现绕过 SNI 阻断的工具 |
 | [sshx](https://sshx.io) | Fast, collaborative live terminal sharing over the web |
 | [sunnycapturer](http://sunnycapturer.xmuli.tech/) | 简单且漂亮的跨平台截图软件，支持离线 OCR、图片翻译、贴图和钉图等功能 |
+| [termora](https://termora.app) | Termora is a terminal emulator and SSH client for Windows, macOS and Linux. |
 | [tiny-rdm](https://github.com/tiny-craft/tiny-rdm) | 一个现代化轻量级的跨平台Redis桌面客户端 |
 
 
