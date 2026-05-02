@@ -8,7 +8,7 @@ This bucket currently contains the following applications:
 
 | Application | Description |
 | ----------- | ----------- |
-| [cli-proxy-api](https://github.com/router-for-me/CLIProxyAPI) | Wrap Gemini CLI, Antigravity, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API |
+| [cli-proxy-api](https://github.com/router-for-me/CLIProxyAPI) | Wrap Gemini CLI, Antigravity, ChatGPT Codex, Claude Code as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 3.1 Pro, GPT 5.5, Claude model through API |
 | [dblab](https://github.com/danvergara/dblab) | The database client every command line junkie deserves. |
 | [envx](https://github.com/mikeleppane/envx) | A powerful and secure environment variable manager for developers, featuring an intuitive Terminal User Interface (TUI) and comprehensive command-line interface. |
 | [filebrowser](https://filebrowser.org) | 📂 Web File Browser |
@@ -19,6 +19,7 @@ This bucket currently contains the following applications:
 | [hl](https://github.com/pamburus/hl) | A fast and powerful log viewer and processor that converts JSON logs or logfmt logs into a clear human-readable format. |
 | [intelli-shell](https://lasantosr.github.io/intelli-shell/) | Like IntelliSense, but for shells |
 | [keystats](https://keystats.vercel.app) | Keyboard & Mouse Stats for macOS/Windows |
+| [matcha](https://matcha.floatpane.com) | A beautiful and functional email client for your terminal, built with Go and the charming Bubble Tea TUI library. Never leave your command line to check your inbox or send an email again! |
 | [mousemaster](https://github.com/petoncle/mousemaster) | Efficiently control your mouse with keyboard inputs for a completely mouseless experience. |
 | [mouser](https://github.com/TomBadash/Mouser) | A lightweight, open-source, fully local alternative to Logitech Options+ for remapping Logitech HID++ mice. |
 | [octopus](https://github.com/bestruirui/octopus) | One Hub All LLMs For You \| 为个人打造的 LLM API 聚合服务 |
@@ -60,6 +61,51 @@ uv run --with httpx .\scripts\gen-manifest.py <github-url>
 ```
 
 Alternatively, you can manually create a manifest. See the [Scoop Wiki](https://github.com/ScoopInstaller/Scoop/wiki/App-Manifests) for more details.
+
+## Scripts
+
+This bucket includes utility scripts in the `bin/` directory:
+
+### update-readme.ps1
+
+Automatically generates and updates the applications table in README.md by parsing all JSON manifests in the bucket.
+
+**Usage:**
+```powershell
+.\bin\update-readme.ps1 [-BucketPath <path>] [-ReadmePath <path>]
+```
+
+**Parameters:**
+- `-BucketPath`: Path to the bucket directory (default: `.\bucket`)
+- `-ReadmePath`: Path to README.md (default: `.\README.md`)
+
+**Example:**
+```powershell
+.\bin\update-readme.ps1
+```
+
+### check-upstream.ps1
+
+Checks if applications in this bucket already exist in official Scoop buckets (main/extras) by name or content matching.
+
+**Usage:**
+```powershell
+.\bin\check-upstream.ps1 [-Buckets <array>] [-ShowMatches] [-ShowMissing] [-ShowPaths]
+```
+
+**Parameters:**
+- `-Buckets`: Official buckets to check against (default: `@("main", "extras")`)
+- `-ShowMatches`: Display apps found in official buckets (default: `$true`)
+- `-ShowMissing`: Display apps not found in official buckets (default: `$false`)
+- `-ShowPaths`: Show file paths for matches (default: `$true`)
+
+**Requirements:** Requires `ripgrep` (rg) to be installed.
+
+**Example:**
+```powershell
+# Show all matches with paths
+.\bin\check-upstream.ps1
+```
 
 ## License
 
