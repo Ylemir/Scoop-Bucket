@@ -1,5 +1,5 @@
 {
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "AI based image renaming CLI",
     "homepage": "https://github.com/ylemir/renai",
     "bin": [
@@ -11,8 +11,8 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Ylemir/Renai/releases/download/v0.1.1/renai-windows.zip",
-            "hash": "sha256:d534ae4a4c2a1147efd7ed8ef698f3985423a1b14d3520f705bfdf7b22134db0"
+            "url": "https://github.com/Ylemir/Renai/releases/download/v0.1.2/renai-windows.zip",
+            "hash": "bad8824002f284e009cd8200492b090730acd2ffc632c86b8b443a5dc5be9549"
         }
     },
     "checkver": {
