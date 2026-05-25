@@ -16,10 +16,8 @@ This bucket currently contains the following applications:
 | [gitlogue](https://github.com/unhappychoice/gitlogue) | A cinematic Git commit replay tool for the terminal, turning your Git history into a living, animated story. |
 | [gonzo](https://www.controltheory.com/gonzo/) | Gonzo! The Go based TUI log analysis tool |
 | [halp](https://halp.cli.rs/) | A CLI tool to get help with CLI tools 🐙 |
-| [hl](https://github.com/pamburus/hl) | A fast and powerful log viewer and processor that converts JSON logs or logfmt logs into a clear human-readable format. |
 | [intelli-shell](https://lasantosr.github.io/intelli-shell/) | Like IntelliSense, but for shells |
 | [keystats](https://keystats.vercel.app) | Keyboard & Mouse Stats for macOS/Windows |
-| [matcha](https://matcha.floatpane.com) | A beautiful and functional email client for your terminal, built with Go and the charming Bubble Tea TUI library. Never leave your command line to check your inbox or send an email again! |
 | [mousemaster](https://github.com/petoncle/mousemaster) | Efficiently control your mouse with keyboard inputs for a completely mouseless experience. |
 | [mouser](https://github.com/TomBadash/Mouser) | A lightweight, open-source, fully local alternative to Logitech Options+ for remapping Logitech HID++ mice. |
 | [octopus](https://github.com/bestruirui/octopus) | One Hub All LLMs For You \| 为个人打造的 LLM API 聚合服务 |
@@ -54,11 +52,7 @@ scoop install ylem-bucket/<app-name>
 
 If you'd like to contribute to this bucket, feel free to submit a pull request with a new manifest file or improvements to existing ones.
 
-You can use the script in [scripts/gen-manifest.py](scripts/gen-manifest.py) to help generate manifest files for GitHub releases:
-
-```shell
-uv run --with httpx .\scripts\gen-manifest.py <github-url>
-```
+You can use [scoop-create](https://github.com/Ylemir/Scoop-Create) to help generate manifest files for GitHub releases.
 
 Alternatively, you can manually create a manifest. See the [Scoop Wiki](https://github.com/ScoopInstaller/Scoop/wiki/App-Manifests) for more details.
 
@@ -109,4 +103,4 @@ Checks if applications in this bucket already exist in official Scoop buckets (m
 
 ## License
 
-The manifests and scripts in this repository are licensed under the MIT License unless otherwise specified.
+This project is licensed under the [MIT License](LICENSE).
