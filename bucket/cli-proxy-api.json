@@ -1,12 +1,12 @@
 {
-    "version": "7.1.31",
+    "version": "7.1.32",
     "description": "Wrap Gemini CLI, Antigravity, ChatGPT Codex, Claude Code as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 3.1 Pro, GPT 5.5, Claude model through API",
     "homepage": "https://github.com/router-for-me/CLIProxyAPI",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v7.1.31/CLIProxyAPI_7.1.31_windows_amd64.zip",
-            "hash": "9e09870605ac19cf4c1df9d12ebf7d6c9f8d3e3f165f575339c4046d60c4e313"
+            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v7.1.32/CLIProxyAPI_7.1.32_windows_amd64.zip",
+            "hash": "6cac6c4e00750984662f1d6865e24702788f25d2b53bf135904e290d39ffdf45"
         }
     },
     "bin": [
