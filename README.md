@@ -8,7 +8,6 @@ This bucket currently contains the following applications:
 
 | Application | Description |
 | ----------- | ----------- |
-| [cli-proxy-api](https://github.com/router-for-me/CLIProxyAPI) | Wrap Gemini CLI, Antigravity, ChatGPT Codex, Claude Code as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 3.1 Pro, GPT 5.5, Claude model through API |
 | [dblab](https://github.com/danvergara/dblab) | The database client every command line junkie deserves. |
 | [envx](https://github.com/mikeleppane/envx) | A powerful and secure environment variable manager for developers, featuring an intuitive Terminal User Interface (TUI) and comprehensive command-line interface. |
 | [filebrowser](https://filebrowser.org) | 📂 Web File Browser |
@@ -20,6 +19,7 @@ This bucket currently contains the following applications:
 | [keystats](https://keystats.vercel.app) | Keyboard & Mouse Stats for macOS/Windows |
 | [mousemaster](https://github.com/petoncle/mousemaster) | Efficiently control your mouse with keyboard inputs for a completely mouseless experience. |
 | [mouser](https://github.com/TomBadash/Mouser) | A lightweight, open-source, fully local alternative to Logitech Options+ for remapping Logitech HID++ mice. |
+| [nipaplay](https://github.com/MCDFsteve/NipaPlay-Reload) | NipaPlay-Reload 是一个现代化的跨平台视频播放器，集成了弹幕显示、多格式字幕支持、多音频轨道切换，新番查看等功能 |
 | [octopus](https://github.com/bestruirui/octopus) | One Hub All LLMs For You \| 为个人打造的 LLM API 聚合服务 |
 | [projecteye](https://github.com/Planshit/ProjectEye) | 护眼 - 定时提醒 |
 | [renai](https://github.com/ylemir/renai) | AI based image renaming CLI |
