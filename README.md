@@ -17,6 +17,7 @@ This bucket currently contains the following applications:
 | [halp](https://halp.cli.rs/) | A CLI tool to get help with CLI tools 🐙 |
 | [intelli-shell](https://lasantosr.github.io/intelli-shell/) | Like IntelliSense, but for shells |
 | [keystats](https://keystats.vercel.app) | Keyboard & Mouse Stats for macOS/Windows |
+| [litemonitor](https://litemonitor.cn) | 一款轻量级、高度可定制的 Windows桌面和任务栏硬件性能监控工具，支持监测 CPU、GPU、内存、磁盘、网速、FPS 计数、插件扩展及内存清理。A lightweight, customizable hardware monitor for the Windows desktop & taskbar. Features CPU/GPU/RAM/Network monitoring, FPS counter, plugin support, and memory optimization. |
 | [mousemaster](https://github.com/petoncle/mousemaster) | Efficiently control your mouse with keyboard inputs for a completely mouseless experience. |
 | [mouser](https://github.com/TomBadash/Mouser) | A lightweight, open-source, fully local alternative to Logitech Options+ for remapping Logitech HID++ mice. |
 | [nipaplay](https://github.com/MCDFsteve/NipaPlay-Reload) | NipaPlay-Reload 是一个现代化的跨平台视频播放器，集成了弹幕显示、多格式字幕支持、多音频轨道切换，新番查看等功能 |
@@ -28,6 +29,7 @@ This bucket currently contains the following applications:
 | [sunnycapturer](http://sunnycapturer.xmuli.tech/) | 简单且漂亮的跨平台截图软件，支持离线 OCR、图片翻译、贴图和钉图等功能 |
 | [termora](https://termora.app) | Termora is a terminal emulator and SSH client for Windows, macOS and Linux. |
 | [tiny-rdm](https://github.com/tiny-craft/tiny-rdm) | 一个现代化轻量级的跨平台Redis桌面客户端 |
+| [tursotui](https://github.com/mikeleppane/tursotui) | A keyboard-driven terminal UI for browsing, querying, and administering Turso and SQLite databases — built with Rust, ratatui, and vim-inspired navigation. |
 
 
 ## Usage
