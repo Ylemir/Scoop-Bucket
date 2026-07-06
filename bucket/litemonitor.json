@@ -9,6 +9,10 @@
             "LiteMonitor"
         ]
     ],
+    "persist": [
+        "settings.json",
+        "TrafficHistory.json"
+    ],
     "architecture": {
         "64bit": {
             "url": "https://github.com/Diorser/LiteMonitor/releases/download/v1.3.6/LiteMonitor_v1.3.6-win-x64.zip",

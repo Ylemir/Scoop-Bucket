@@ -18,6 +18,7 @@ This bucket currently contains the following applications:
 | [intelli-shell](https://lasantosr.github.io/intelli-shell/) | Like IntelliSense, but for shells |
 | [keystats](https://keystats.vercel.app) | Keyboard & Mouse Stats for macOS/Windows |
 | [litemonitor](https://litemonitor.cn) | 一款轻量级、高度可定制的 Windows桌面和任务栏硬件性能监控工具，支持监测 CPU、GPU、内存、磁盘、网速、FPS 计数、插件扩展及内存清理。A lightweight, customizable hardware monitor for the Windows desktop & taskbar. Features CPU/GPU/RAM/Network monitoring, FPS counter, plugin support, and memory optimization. |
+| [mouseinc](https://docs.shuax.com/MouseInc/) | Simple but powerful mouse gestures for Windows |
 | [mousemaster](https://github.com/petoncle/mousemaster) | Efficiently control your mouse with keyboard inputs for a completely mouseless experience. |
 | [mouser](https://github.com/TomBadash/Mouser) | A lightweight, open-source, fully local alternative to Logitech Options+ for remapping Logitech HID++ mice. |
 | [nipaplay](https://github.com/MCDFsteve/NipaPlay-Reload) | NipaPlay-Reload 是一个现代化的跨平台视频播放器，集成了弹幕显示、多格式字幕支持、多音频轨道切换，新番查看等功能 |
