@@ -1,13 +1,13 @@
 {
-    "version": "0.43.0",
+    "version": "0.44.1",
     "description": "The database client every command line junkie deserves.",
     "homepage": "https://github.com/danvergara/dblab",
     "bin": "dblab.exe",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/danvergara/dblab/releases/download/v0.43.0/dblab_0.43.0_windows_amd64.tar.gz",
-            "hash": "f7ef1aa43f0e101117855e1298c33967189c8a352e62e81e599d7ccb12396920"
+            "url": "https://github.com/danvergara/dblab/releases/download/v0.44.1/dblab_0.44.1_windows_amd64.tar.gz",
+            "hash": "7e0970139f078c2b456956cea3c20887d21486dc3b88f417f37e57077fb3b030"
         }
     },
     "checkver": {
