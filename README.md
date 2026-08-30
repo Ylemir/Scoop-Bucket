@@ -9,6 +9,7 @@ This bucket currently contains the following applications:
 | Application | Description |
 | ----------- | ----------- |
 | [dblab](https://github.com/danvergara/dblab) | The database client every command line junkie deserves. |
+| [dnspick](https://github.com/palemoky/dnspick) | 🚀 Pick the DNS that fits you |
 | [envx](https://github.com/mikeleppane/envx) | A powerful and secure environment variable manager for developers, featuring an intuitive Terminal User Interface (TUI) and comprehensive command-line interface. |
 | [filebrowser](https://filebrowser.org) | 📂 Web File Browser |
 | [flow](https://flow-control.dev) | Flow Control: a programmer's text editor |
@@ -25,7 +26,7 @@ This bucket currently contains the following applications:
 | [octopus](https://github.com/bestruirui/octopus) | One Hub All LLMs For You \| 为个人打造的 LLM API 聚合服务 |
 | [projecteye](https://github.com/Planshit/ProjectEye) | 护眼 - 定时提醒 |
 | [renai](https://github.com/ylemir/renai) | AI based image renaming CLI |
-| [snibypassgui](https://github.com/racpast/SNIBypassGUI) | 直连 GitHub、Discord、GreasyFork等 \| 一个通过 Nginx 反向代理实现绕过 SNI 阻断的工具 |
+| [snibypassgui](https://snib.racpast.com) | 直连 Discord、GreasyFork 等常用网站 \| 一个通过 Nginx 反向代理等实现绕过 SNI 阻断的工具 |
 | [sshx](https://sshx.io) | Fast, collaborative live terminal sharing over the web |
 | [sunnycapturer](http://sunnycapturer.xmuli.tech/) | 简单且漂亮的跨平台截图软件，支持离线 OCR、图片翻译、贴图和钉图等功能 |
 | [termora](https://termora.app) | Termora is a terminal emulator and SSH client for Windows, macOS and Linux. |

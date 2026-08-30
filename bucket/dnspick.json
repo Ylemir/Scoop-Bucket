@@ -1,0 +1,28 @@
+{
+    "version": "2.3.0",
+    "description": "🚀 Pick the DNS that fits you",
+    "homepage": "https://github.com/palemoky/dnspick",
+    "license": "MIT",
+    "bin": [
+        [
+            "dnspick-windows-amd64.exe",
+            "dnspick"
+        ]
+    ],
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/palemoky/dnspick/releases/download/v2.3.0/dnspick-windows-amd64.zip",
+            "hash": "26fa151c0bd9b29de586b01929c00655393cb20c5328c0e13fafad6784ce0cf9"
+        }
+    },
+    "checkver": {
+        "github": "https://github.com/palemoky/dnspick"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/palemoky/dnspick/releases/download/v$version/dnspick-windows-amd64.zip"
+            }
+        }
+    }
+}
