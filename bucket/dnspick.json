@@ -1,5 +1,5 @@
 {
-    "version": "2.3.0",
+    "version": "2.3.1",
     "description": "🚀 Pick the DNS that fits you",
     "homepage": "https://github.com/palemoky/dnspick",
     "license": "MIT",
@@ -11,8 +11,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/palemoky/dnspick/releases/download/v2.3.0/dnspick-windows-amd64.zip",
-            "hash": "26fa151c0bd9b29de586b01929c00655393cb20c5328c0e13fafad6784ce0cf9"
+            "url": "https://github.com/palemoky/dnspick/releases/download/v2.3.1/dnspick-windows-amd64.zip",
+            "hash": "69c8a46a176f653f0a23ca53ee3a23f32ae072fc1fde555de48797d19791d2dc"
         }
     },
     "checkver": {
