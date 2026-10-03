@@ -1,5 +1,5 @@
 {
-    "version": "1.53",
+    "version": "1.54",
     "description": "Keyboard & Mouse Stats for macOS/Windows",
     "homepage": "https://keystats.vercel.app",
     "shortcuts": [
@@ -11,8 +11,8 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/debugtheworldbot/keyStats/releases/download/v1.53/KeyStats-Windows-1.53.zip",
-            "hash": "a484fe1221bc624c7deebc8fcae7c572d2b94104ccc7daa191dc9f913f3992bf"
+            "url": "https://github.com/debugtheworldbot/keyStats/releases/download/v1.54/KeyStats-Windows-1.54.zip",
+            "hash": "03545c680f55f016dc7f69149b9717b73720c1a540f6864a9f85034acb88282f"
         }
     },
     "post_uninstall": [
