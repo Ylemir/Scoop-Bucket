@@ -1,5 +1,5 @@
 {
-    "version": "3.4.5",
+    "version": "3.4.6",
     "description": "Like IntelliSense, but for shells",
     "homepage": "https://lasantosr.github.io/intelli-shell/",
     "bin": [
@@ -11,8 +11,8 @@
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/lasantosr/intelli-shell/releases/download/v3.4.5/intelli-shell-x86_64-pc-windows-msvc.zip",
-            "hash": "69f80a1c35fa5a4f2b6ea2435cf85831050e417127507536602896ba8f840b96"
+            "url": "https://github.com/lasantosr/intelli-shell/releases/download/v3.4.6/intelli-shell-x86_64-pc-windows-msvc.zip",
+            "hash": "fd28ccf466791ecb119662b8acc2c49987945ae1ad7a1f33ab306e8b008efaa9"
         }
     },
     "checkver": {
