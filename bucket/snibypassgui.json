@@ -12,7 +12,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/racpast/SNIBypassGUI/releases/download/v5.1.2/SNIBypassGUI-v5.1.2.zip",
-            "hash": "07c516eb3ccd2f4795dba2d44eb833fc1cd22a54d5fecc7f958ff82e0dc14989"
+            "hash": "ae374cbd56ac785186fe67ed5ba59787d7255083a8a4e1df4220fc6402ad602a"
         }
     },
     "checkver": "github",
