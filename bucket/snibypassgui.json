@@ -1,5 +1,5 @@
 {
-    "version": "5.1.2",
+    "version": "5.2.1",
     "description": "直连 Discord、GreasyFork 等常用网站 | 一个通过 Nginx 反向代理等实现绕过 SNI 阻断的工具",
     "homepage": "https://snib.racpast.com",
     "license": "NOASSERTION",
@@ -9,13 +9,15 @@
             "SNIBypass"
         ]
     ],
+    "persist": [
+        "config.ini"
+    ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/racpast/SNIBypassGUI/releases/download/v5.1.2/SNIBypassGUI-v5.1.2.zip",
-            "hash": "ae374cbd56ac785186fe67ed5ba59787d7255083a8a4e1df4220fc6402ad602a"
+            "url": "https://github.com/racpast/SNIBypassGUI/releases/download/v5.2.1/SNIBypassGUI-v5.2.1.zip",
+            "hash": "076a141c7a5a52d541e30853e7e5344a73c362de683834c9c984bee2105dfe21"
         }
     },
-    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {

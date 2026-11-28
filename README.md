@@ -23,14 +23,13 @@ This bucket currently contains the following applications:
 | [mousemaster](https://github.com/petoncle/mousemaster) | Efficiently control your mouse with keyboard inputs for a completely mouseless experience. |
 | [mouser](https://github.com/TomBadash/Mouser) | A lightweight, open-source, fully local alternative to Logitech Options+ for remapping Logitech HID++ mice. |
 | [nipaplay](https://github.com/MCDFsteve/NipaPlay-Reload) | NipaPlay-Reload 是一个现代化的跨平台视频播放器，集成了弹幕显示、多格式字幕支持、多音频轨道切换，新番查看等功能 |
-| [octopus](https://github.com/bestruirui/octopus) | One Hub All LLMs For You \| 为个人打造的 LLM API 聚合服务 |
+| [octopus](https://github.com/bestruirui/octopus) | One Hub All LLMs For You \| 为个人打造的 LLM API 聚合网关 |
 | [projecteye](https://github.com/Planshit/ProjectEye) | 护眼 - 定时提醒 |
 | [renai](https://github.com/ylemir/renai) | AI based image renaming CLI |
 | [snibypassgui](https://snib.racpast.com) | 直连 Discord、GreasyFork 等常用网站 \| 一个通过 Nginx 反向代理等实现绕过 SNI 阻断的工具 |
 | [sshx](https://sshx.io) | Fast, collaborative live terminal sharing over the web |
 | [sunnycapturer](http://sunnycapturer.xmuli.tech/) | 简单且漂亮的跨平台截图软件，支持离线 OCR、图片翻译、贴图和钉图等功能 |
 | [termora](https://termora.app) | Termora is a terminal emulator and SSH client for Windows, macOS and Linux. |
-| [tiny-rdm](https://github.com/tiny-craft/tiny-rdm) | 一个现代化轻量级的跨平台Redis桌面客户端 |
 | [tursotui](https://github.com/mikeleppane/tursotui) | A keyboard-driven terminal UI for browsing, querying, and administering Turso and SQLite databases — built with Rust, ratatui, and vim-inspired navigation. |
 
 
